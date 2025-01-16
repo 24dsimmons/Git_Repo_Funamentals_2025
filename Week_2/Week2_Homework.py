@@ -28,6 +28,14 @@ print("Your conversion is: ", total, "Seconds.")
 
 #Additional Practice #1
 
-A = 3
-B = 4
-
+a = "3"
+temp = a
+b = "4"
+print (a)
+print (b)
+print ("Here are the variables unchanged!")
+a=b
+b = temp
+print (a)
+print(b)
+print ("Here is the variables swapped! ")
