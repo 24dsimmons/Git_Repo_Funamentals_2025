@@ -28,7 +28,8 @@ print("Your conversion is: ", total, "Seconds.")
 
 #Additional Practice #1
 
-a = "3"
+'''
+a = "6"
 temp = a
 b = "4"
 print (a)
@@ -39,3 +40,42 @@ b = temp
 print (a)
 print(b)
 print ("Here is the variables swapped! ")
+'''
+
+#Additional Practice #2
+'''
+input_1 = int(input ("What is the first number you would like to have averaged?: "))
+input_2 = int(input ("What is the second number you would like to have averaged?: "))
+average = (input_1 + input_2) /2
+print (average)
+'''
+
+#Additional Practice #3
+'''
+first_name = input ("What is your first name?: ") 
+last_name = input("What is your last name?: ")
+country = input("What country do you live in?: ")
+age = input ("What is your current age?: ")
+print ("Hello", first_name, last_name, "Your current age is", age, "and you live in", country)
+'''
+
+#Additional Practice #4
+'''
+kilometers = int(input ("How many kilometers did you run?: "))
+hours = int(input ("How many hours did that take?: "))
+minutes = int(input ("How many minutes?: "))
+seconds = int(input ("How many seconds?: "))
+convert_hours = hours + (minutes/60) + (seconds/3600)
+miles = (kilometers/ float(1.61))
+print ("You ran", miles, " miles in this many hours:", convert_hours)
+mph = (miles /convert_hours)
+print ("Here is your time in miles per hour:", mph)
+'''
+
+#Additional Practice #5
+
+book_price = float(24.95)
+discount = (book_price *.4)
+copies = int(input("How many copies would your company like to buy?: "))
+copies_total = (discount * copies)
+print (copies_total.__round__)
