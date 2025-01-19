@@ -71,11 +71,3 @@ print ("You ran", miles, " miles in this many hours:", convert_hours)
 mph = (miles /convert_hours)
 print ("Here is your time in miles per hour:", mph)
 '''
-
-#Additional Practice #5
-
-book_price = float(24.95)
-discount = (book_price *.4)
-copies = int(input("How many copies would your company like to buy?: "))
-copies_total = (discount * copies)
-print (copies_total.__round__)
